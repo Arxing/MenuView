@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MenuView">
+        <attr name="menu_orientation" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+        <attr name="menu_size" format="fraction|dimension"/>
+        <attr name="menu_touchPanSize" format="dimension"/>
+        <attr name="menu_touchPanColor" format="color"/>
+        <attr name="menu_appear_duration" format="integer"/>
+        <attr name="menu_auto_anim_threshold" format="fraction"/>
+        <attr name="menu_dragOpenEnabled" format="boolean"/>
+        <attr name="menu_maskEnabled" format="boolean"/>
+    </declare-styleable>
+</resources>
